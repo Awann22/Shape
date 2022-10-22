@@ -18,7 +18,9 @@ public class Rectangle {
          int area = length *breadth;
        return area; // write code to calculate area here
     } 
-    
+    public int getPerimeter()  { 
+           int perimeter = 2*(length+breadth);
+           return perimeter;
     // write code to calculate perimeter here
     // getPerimeter()
     
